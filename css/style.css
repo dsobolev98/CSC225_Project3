@@ -1,0 +1,21 @@
+.spinner-border {
+    height: 7rem;
+    width: 7rem;
+}
+
+.container {
+    padding: 15px;
+    height: 100vh;
+}
+
+.spinner {
+    margin: 40vh 0;
+}
+
+.movie {
+    cursor: pointer;
+}
+
+.movie:hover {
+    text-decoration: underline;
+}
