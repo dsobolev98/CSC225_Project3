@@ -12,32 +12,19 @@
     <title>Project 3</title>
   </head>
   <body class="bg-secondary">
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Movies225</a>
-        <form class="form-inline">
-          <input class="form-control mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light my-2 my-sm-0 navSearch" type="submit">Search</button>
+    <nav class="navbar navbar-dark bg-dark px-5">
+        <a class="navbar-brand" href="index.html">Movies225</a>
+        <form class="form-inline d-flex flex-nowrap">
+            <input class="form-control mr-2 mr-sm-2" name="search" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0 navSearch" type="submit">Search</button>
         </form>
     </nav>
     <div class="container">
         <div class="d-flex justify-content-center" id="spinner"></div>
         <div class="row">
-            <div class="col-6 text-light" id="movie"></div>
-            <div class="col-6 text-dark" id="current-movie">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row no-gutters">
-                      <div class="col-md-4" id="poster">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title" id="title"></h5>
-                          <p class="card-text" id="director"></p>
-                          <p class="card-text" id="release"></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
+            <div class="col-auto col-sm-6 text-light" id="movie"></div>
+            <div class="w-100 d-sm-none"></div>
+            <div class="col-auto col-sm-6 text-dark" id="current-movie"></div>
         </div>
     </div>
 

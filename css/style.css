@@ -1,15 +1,18 @@
-.spinner-border {
+.spinner1{
     height: 7rem;
     width: 7rem;
+    margin: 30vh 0;
+}
+
+.spinner2{
+    height: 3rem;
+    width: 3rem;
+    margin: 30vh 0;
 }
 
 .container {
     padding: 15px;
     height: 100vh;
-}
-
-.spinner {
-    margin: 40vh 0;
 }
 
 .movie {
@@ -18,4 +21,25 @@
 
 .movie:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 575px){
+    nav .navbar-brand{
+        width: 100vw;
+        text-align: center;
+        margin: 0;
+    }
+
+    nav form{
+        width: 100vw;
+    }
+
+    #movie{
+        width: 100vw;
+        text-align: center;
+    }
+
+    #current-movie{
+        width: 100vw;
+    }
 }
